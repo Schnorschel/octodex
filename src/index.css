@@ -2,11 +2,165 @@
   font: 16px / 1 sans-serif;
 }
 
+#root {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 html {
   height: 100%;
 }
 
 body {
   margin: 0;
+  padding-top: 100px;
   min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  transform: translate(0, -100px);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  align-item: baseline;
+  background-color: rgba(255, 255, 255, 0.75);
+  /* border: 1px solid teal; */
+}
+
+.fa-github {
+  font-size: 2rem;
+  vertical-align: sub;
+}
+.tileContainer {
+  width: 95%;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* border: 1px solid black; */
+}
+
+.imagesContainer {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0 8px;
+  /* border: 1px solid black; */
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 7px;
+  overflow: hidden;
+  box-sizing: content-box;
+  /* margin: -8px; */
+  padding: 8px;
+}
+
+.catImage {
+  width: 100%;
+  /* object-fit: contain; */
+  margin: 8px;
+  border-radius: 5px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.ordinal {
+  color: rgb(151, 151, 151);
+}
+
+.authorImage {
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid yellow; */
+  border-radius: 3px;
+}
+
+.imageCaption {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  align-items: center;
+  margin-top: 5px;
+}
+
+.copyright {
+  align-self: flex-start;
+  /* border: 1px solid black; */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  align-items: baseline;
+}
+
+li {
+  padding: 0 0.55em;
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(121, 120, 120);
+  font-size: 0.9rem;
+}
+
+li .nonTransparentCat {
+  color: black;
+}
+
+.octodex {
+  color: black;
+}
+
+.transparentCat {
+  color: rgba(1, 1, 1, 0);
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 100%;
+  margin: 30px 16px;
+  border: 1px solid rgb(238, 237, 237);
+}
+
+@media (min-width: 600px) {
+  .tileContainer {
+    width: 44%;
+  }
+}
+
+@media (min-width: 1012px) {
+  .tileContainer {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .tileContainer {
+    width: 22%;
+  }
 }
