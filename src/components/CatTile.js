@@ -12,7 +12,9 @@ const CatTile = props => {
         <p>
           <span class='ordinal'>#{props.ordinal}</span>: {props.name}
         </p>{' '}
-        <img class='authorImage' src={props.authorImage} />
+        <a href='#'>
+          <img class='authorImage' src={props.authorImage} />
+        </a>
       </section>
     </div>
   )

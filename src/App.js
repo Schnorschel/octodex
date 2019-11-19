@@ -1,20 +1,6 @@
 import React, { Component } from 'react'
 
-import barackToCat from './images/baracktocat.jpg'
-import droidToCat from './images/droidtocat.png'
-import filmToCat from './images/filmtocat.png'
-import homerCat from './images/homercat.png'
-import oktoberCat from './images/oktobercat.png'
-import privateInvesToCat from './images/privateinvestocat.jpg'
-import stormTroopoCat from './images/stormtroopocat.png'
-import marioToCat from './images/plumber.jpg'
-
-import cameronMcEfeeIcon from './images/72919.jfif'
-import tonyJaramilloIcon from './images/1300064.png'
-import nickHIcon from './images/6218.jfif'
-import jeejKangIcon from './images/2053865.jfif'
-
-import CatTile from './components/CatTile'
+import CreateTiles from './components/CreateTiles'
 
 const App = () => {
   return (
@@ -44,44 +30,7 @@ const App = () => {
         </ul>
       </div>
       <section class='imagesContainer'>
-        <CatTile
-          catImage={barackToCat}
-          name='BarackToCat'
-          ordinal='1'
-          authorImage={cameronMcEfeeIcon}
-        />
-        <CatTile
-          catImage={droidToCat}
-          name='DroidToCat'
-          ordinal='2'
-          authorImage={tonyJaramilloIcon}
-        />
-        <CatTile catImage={filmToCat} name='FilmToCat' ordinal='3' authorImage={jeejKangIcon} />
-        <CatTile catImage={homerCat} name='HomerCat' ordinal='4' authorImage={nickHIcon} />
-        <CatTile
-          catImage={oktoberCat}
-          name='OktoberCat'
-          ordinal='5'
-          authorImage={cameronMcEfeeIcon}
-        />
-        <CatTile
-          catImage={privateInvesToCat}
-          name='PrivateInvesToCat'
-          ordinal='6'
-          authorImage={jeejKangIcon}
-        />
-        <CatTile
-          catImage={stormTroopoCat}
-          name='StormTroopoCat'
-          ordinal='7'
-          authorImage={jeejKangIcon}
-        />
-        <CatTile
-          catImage={marioToCat}
-          name='MarioCat'
-          ordinal='8'
-          authorImage={cameronMcEfeeIcon}
-        />
+        <CreateTiles />
         <hr />
         <p class='copyright'>&copy; 2013-2019 GitHub</p>
       </section>

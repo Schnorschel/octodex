@@ -1,0 +1,50 @@
+[
+  {
+    "catImage": barackToCat,
+    "name": "BarackToCat",
+    "ordinal": "1",
+    "authorImage": cameronMcEfeeIcon
+  },
+  {
+    "catImage": droidToCat,
+    "name": "DroidToCat",
+    "ordinal": "2",
+    "authorImage": tonyJaramilloIcon
+  },
+  {
+    "catImage": filmToCat,
+    "name": "FilmToCat",
+    "ordinal": "3",
+    "authorImage": jeejKangIcon
+  },
+  {
+    "catImage": homerCat,
+    "name": "HomerCat",
+    "ordinal": "4",
+    "authorImage": nickHIcon
+  },
+  {
+    "catImage": oktoberCat,
+    "name": "OktoberCat",
+    "ordinal": "5",
+    "authorImage": cameronMcEfeeIcon
+  },
+  {
+    "catImage": privateInvesToCat,
+    "name": "PrivateInvesToCat",
+    "ordinal": "6",
+    "authorImage": jeejKangIcon
+  },
+  {
+    "catImage": stormTroopoCat,
+    "name": "StormTroopoCat",
+    "ordinal": "7",
+    "authorImage": jeejKangIcon
+  },
+  {
+    "catImage": marioToCat,
+    "name": "MarioCat",
+    "ordinal": "8",
+    "authorImage": cameronMcEfeeIcon
+  }
+]
